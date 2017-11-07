@@ -1,0 +1,289 @@
+2017-11-07 13:55:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found.
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(95): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Volumes/DATA/projects/spc-cms.local/public_html/webroot/index.php(41): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-07 13:56:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found.
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(95): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Volumes/DATA/projects/spc-cms.local/public_html/webroot/index.php(41): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-07 13:57:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found.
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(95): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Volumes/DATA/projects/spc-cms.local/public_html/webroot/index.php(41): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-07 14:00:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found.
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(95): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Http/Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Volumes/DATA/projects/spc-cms.local/public_html/webroot/index.php(41): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-07 14:27:45 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/f7cbd032-ac2d-4929-96f5-e38cbc80941a
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:45 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/f7cbd032-ac2d-4929-96f5-e38cbc80941a
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:48 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/86f6a5bc-9171-468e-8062-f7b75bf5ab9d
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:48 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/86f6a5bc-9171-468e-8062-f7b75bf5ab9d
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:50 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/f7cbd032-ac2d-4929-96f5-e38cbc80941a
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:50 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/f7cbd032-ac2d-4929-96f5-e38cbc80941a
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:53 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/86f6a5bc-9171-468e-8062-f7b75bf5ab9d
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:53 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/86f6a5bc-9171-468e-8062-f7b75bf5ab9d
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:54 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/c6807f08-4533-44dd-80bb-9c5f9596d3d6
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:54 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/c6807f08-4533-44dd-80bb-9c5f9596d3d6
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:57 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/7c4fc0eb-3332-46e9-a023-1ff6e0f06b3c
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:57 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/7c4fc0eb-3332-46e9-a023-1ff6e0f06b3c
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:58 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/eef733a2-8af4-4b19-b796-935892a40cec
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:58 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/eef733a2-8af4-4b19-b796-935892a40cec
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:27:59 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/undefined
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:27:59 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/undefined
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:28:06 Error: Fatal Error (1): Class 'App\View\AppView' not found in [/Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php, line 26]
+Request URL: /debug_kit/panels/view/f7cbd032-ac2d-4929-96f5-e38cbc80941a
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 104
+[main] - [internal], line ??
+
+
+
+2017-11-07 14:28:06 Error: [Cake\Error\FatalErrorException] Class 'App\View\AppView' not found in /Volumes/DATA/projects/spc-cms.local/public_html/src/View/AjaxView.php on line 26
+Request URL: /debug_kit/panels/view/f7cbd032-ac2d-4929-96f5-e38cbc80941a
+Referer URL: http://spc-cms.local/debug_kit/toolbar/30b45b59-cf4c-41f9-8541-0790df20288a
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /Volumes/DATA/cake_install/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\View...', '/Volumes/DATA/p...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
